@@ -1,0 +1,94 @@
+:root {
+	--color1: #F40A0A;
+	--color2: #FF8B00;
+  --softDark: #2E2E2E;
+}
+
+body{
+	font-family: "Arial", "sans-serif";
+}
+
+header {
+  background-image: url('../img/site/header_fon.png');
+}
+
+.bg-nav {
+  background-color: rgba(90, 85, 90, 0.8);
+}
+
+.navbar__btn a{
+  margin: 10px;
+}
+
+.header__info {
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+
+.header__info p {
+  font-family: Luminari, fantasy;
+  font-size: 42px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(var(--color1), var(--color2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.computer-product {
+  margin-bottom: 30px;
+}
+
+.computer-product__text {
+  padding: 20px 0;
+}
+
+.computer-product a{
+  margin-right: 20px;
+}
+
+.computer-product img {
+}
+
+.about {
+  padding: 40px 0;
+}
+
+.pricing {
+  padding: 40px 0;
+}
+
+.pricing.item {
+  background-color: var(--color1);
+}
+
+.pricing.card {
+  width: 100%;
+
+}
+
+.parallax-img {
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/site/computer_fon.jpg');
+}
+
+footer {
+  background-color: var(--softDark);
+}
+
+@media all and (max-width: 768px) {
+  .header__info p {
+    font-size: 36px;
+  }
+}
+
+
+/*Goods page*/
+
+.goods {
+  margin-bottom: 30px;
+}
